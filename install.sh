@@ -125,7 +125,7 @@ services:
       - WEBHOOK_URL=https://n8n.${DOMAIN}
       - N8N_SECURE_COOKIE=false
     volumes:
-      - /docker_volumes/n8n_/home/node/.n8n
+      - /docker_volumes/n8n_data:/home/node/.n8n
     depends_on:
       - postgres
     networks:
