@@ -66,7 +66,6 @@ if [ -f /opt/npm/docker-compose.yml ]; then
 fi
 
 cat > npm-compose.yml << EOF
-version: "3.8"
 services:
   app:
     image: 'jc21/nginx-proxy-manager:latest'
@@ -91,7 +90,6 @@ if [ -f /opt/n8n/docker-compose.yml ]; then
 fi
 
 cat > n8n-compose.yml << EOF
-version: "3.8"
 services:
   postgres:
     image: postgres:16
