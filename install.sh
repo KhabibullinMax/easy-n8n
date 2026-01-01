@@ -99,12 +99,8 @@ services:
       POSTGRES_USER: n8n
       POSTGRES_PASSWORD: ${PG_PASSWORD}
       POSTGRES_DB: n8n
-    ports:
-     - "127.0.0.1:5432:5432"
     volumes:
       - /docker_volumes/postgres_n8n:/var/lib/postgresql/data
-    # Опционально: если нужен доступ через SSH-туннель
-    # (БД будет доступна только на самом VPS по 127.0.0.1)
     ports:
       - "127.0.0.1:5432:5432"
     networks:
