@@ -69,6 +69,4 @@ wget -O install.sh https://raw.githubusercontent.com/KhabibullinMax/easy-n8n/mai
 *   `/opt/npm` — Docker-compose файлы NPM
 
 ## 🤝 Связь с автором
-*   **site:** [khabibullin.ru](https://khabibullin.ru)
 *   **tg:** [Макс Хабибуллин](https://t.me/maxkhabibullin)
-*   **Telegram канал:** [Не ешь с ножа!](https://t.me/not_with_a_knife)
